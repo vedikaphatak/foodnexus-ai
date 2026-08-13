@@ -1,0 +1,169 @@
+Build FOODNEXUS AI, a premium high-fidelity clickable web app for an IDEATHON-winning AI food-safety platform connecting Consumers, Food Businesses and Food-Safety Authorities.
+
+CORE FLOW:
+Consumer reports food issue → uploads evidence → AI visual analysis → risk signal → business notified → corrective action → authority prioritization → human evidence review → final decision → resolution.
+
+IMPORTANT: AI provides “AI-assisted visual observations” and confidence scores only. It does NOT prove contamination, replace laboratory testing or independently enforce penalties. Show “Human verification required” and “Final decision by authorized human reviewer.”
+
+STYLE:
+1440px desktop-first responsive SaaS/GovTech design. Premium, credible, modern and production-ready. Deep navy + teal/cyan + white surfaces; emerald safe, amber warning, red critical. Rounded cards, subtle shadows, clean typography, strong hierarchy, realistic Indian food/restaurant imagery. Avoid generic admin templates, childish graphics and excessive neon. Use realistic 2026 sample data. No Lorem Ipsum.
+
+CREATE 17 CONNECTED SCREENS:
+
+1. LANDING
+Hero: “See Food Risk Before It Becomes a Crisis.”
+Subtitle: “AI-assisted food-safety intelligence connecting consumers, businesses and authorities.”
+CTAs: Report Food Safety Concern / Explore Platform.
+Visual workflow: Report → AI Analysis → Risk Signal → Business Action → Authority Oversight → Resolution.
+Show 3 roles: Consumer—Report/Evidence/Track; Business—Detect/Correct/Improve; Authority—Prioritize/Verify/Act.
+Feature cards: AI Visual Analysis, Risk Intelligence, Complaint Tracking, Corrective Actions, Authority Command Center, Evidence Review, Human Oversight.
+
+2. CONSUMER REPORT
+Stepper: Issue → Evidence → AI Analysis → Submit → Track.
+Fields: business/food name, location, category, description, date/time, anonymous option.
+Categories: Spoilage, Hygiene, Foreign Object, Storage, Suspected Contamination, Other.
+CTA Continue to Evidence.
+
+3. EVIDENCE UPLOAD
+Drag/drop uploader for food photo, kitchen photo, packaging, receipt, video. Show thumbnails, filenames, upload status and delete. CTA Analyze with FOODNEXUS AI.
+
+4. AI ANALYSIS — HERO SCREEN
+Large realistic food image with AI bounding boxes/heatmap. Right panel:
+AI ANALYSIS COMPLETE
+Potential Risk: HIGH
+Confidence: 87%
+Observations: dark discoloration, texture anomaly, possible mold-like pattern, appearance inconsistent with expected freshness.
+Show risk, confidence, evidence quality, human verification required.
+Banner: “AI-assisted visual observation — not a laboratory diagnosis.”
+Buttons Submit Report / Review Evidence.
+Include animated/loading analysis state.
+
+5. REPORT CONFIRMATION
+Success: Report Submitted.
+ID: FNX-2026-084721.
+Timeline: Submitted → AI Analysis → Business Notified → Authority Monitoring.
+CTA Track Report.
+
+6. CONSUMER TRACKING
+Timeline: Submitted → AI Analysis → Business Notified → Corrective Action Requested → Authority Review → Resolved.
+Show risk, status, business response, authority status, evidence and timestamps.
+
+7. BUSINESS DASHBOARD
+“Good morning, GreenBite Foods.”
+KPIs: Open Complaints 12, High-Risk Signals 3, Pending Actions 5, Resolution Rate 94%.
+Risk trend, complaint trend, category chart, recent reports, AI signals.
+Alert: “3 high-priority food safety signals require attention.”
+
+8. AI KITCHEN
+Kitchen zones: Preparation, Storage, Refrigeration, Cooking, Cleaning.
+Statuses: HIGH/MEDIUM/LOW.
+AI observations: improper storage, temperature-control concern, hygiene concern, handling anomaly.
+Show kitchen heatmap, recent detections, recommendations. CTA View Corrective Actions.
+
+9. COMPLAINT DETAIL
+Complaint ID, consumer report, food image, AI analysis, risk, confidence, location, date/time, business response, evidence gallery, observations, timeline.
+Buttons Acknowledge Complaint / Create Corrective Action.
+
+10. CORRECTIVE ACTION CENTER
+Actions:
+Discard affected batch—Pending
+Deep-clean surface—In Progress
+Inspect refrigeration—Completed.
+Each has owner, due date, priority, evidence, status.
+Actions: Mark Complete, Upload Evidence, Add Notes, Request Verification.
+Show progress 0–100%.
+
+11. AUTHORITY COMMAND CENTER — HERO DASHBOARD
+National food-safety operations style.
+KPIs: Active High-Risk Businesses 28, Open Investigations 46, Critical Signals 9, Resolved This Month 183.
+Large city/region map with markers: green low, amber medium, red high; risk heatmap.
+Priority alerts:
+GreenBite Foods—Critical—Repeated signals
+Urban Spice—High—Complaint spike
+FreshBox Kitchen—High—Unresolved action.
+Filters: risk, location, category, date, business, status.
+
+12. PRIORITY BUSINESSES
+Sortable intelligence table:
+Business, Risk Score, Complaints, AI Signals, Repeat Issues, Last Inspection, Corrective Action, Status.
+Businesses: GreenBite Foods 92, Urban Spice 84, FreshBox Kitchen 78, Daily Bowl 61, TasteStreet 44.
+Show transparent “Why prioritized?” factors: repeated complaints, high-risk AI observations, unresolved actions, increasing frequency.
+
+13. BUSINESS INTELLIGENCE PROFILE
+GreenBite Foods; Risk 92/100; Critical Monitoring.
+Show risk trend, complaint trend, AI signal trend, corrective-action history, inspection history, evidence history.
+“Why Risk Increased”: repeated signals, unresolved complaints, delayed action.
+Add AI-assisted authority recommendation.
+
+14. EVIDENCE REVIEW — HUMAN IN LOOP
+Large evidence image + AI observations:
+Discoloration 91%, Texture anomaly 83%, Possible mold-like pattern 78%.
+Buttons Confirm / Reject / Needs More Evidence.
+Reviewer notes + audit trail.
+Clearly show: “AI assists the reviewer; authorized humans make the final decision.”
+
+15. HUMAN DECISION / RESOLUTION
+Case summary, evidence, AI observations, business response, corrective actions, reviewer notes, timeline.
+Decision buttons: Approve Resolution, Request More Evidence, Escalate Investigation, Close Case.
+Confirmation modal.
+Final state: CASE RESOLVED + “Final decision made by authorized human reviewer.”
+
+16. HOW FOODNEXUS WORKS
+Visual flow:
+Citizen Evidence → AI Visual Analysis → Risk Signal → Business Response → Authority Intelligence → Human Verification → Resolution.
+Show benefits: faster reporting, evidence-based prioritization, transparent corrective actions, reduced repeated risk, human accountability.
+
+17. AI SAFETY & HUMAN OVERSIGHT
+Hero: “AI Assists. Humans Decide.”
+Explain AI visual analysis, risk signals and confidence scores; AI does not establish laboratory contamination or independently enforce penalties.
+Visual: Image → AI Observation → Risk Signal → Human Verification → Authority Decision.
+Add auditability/transparency.
+
+NAVIGATION:
+Consumer: Home, Report Issue, Track Report, How It Works.
+Business: Dashboard, AI Kitchen, Complaints, Corrective Actions, Reports.
+Authority: Command Center, Priority Businesses, Investigations, Evidence Review, Analytics.
+Top bar: Search, Notifications, Help, Profile.
+Role switcher: Consumer / Business / Authority.
+
+COMPONENTS:
+Reusable buttons, KPI cards, risk cards, evidence cards, AI insight cards, badges, inputs, search, sidebar, topbar, tabs, timelines, charts, map markers, heatmaps, modals, toasts and confirmation dialogs.
+
+INTERACTIONS:
+Make prototype clickable:
+Landing CTA → Report
+Continue → Evidence
+Analyze → loading → AI result
+Submit → Confirmation
+Track → Tracking
+Business Dashboard → Complaint
+Complaint → Corrective Action
+Authority → Priority Business
+Business → Intelligence Profile
+Evidence → Evidence Review
+Evidence Review → Human Decision
+Decision → Resolution
+Role switcher → correct dashboard
+Sidebar → pages.
+Add hover, pressed, loading, validation, success toast and confirmation states.
+
+JUDGE DEMO:
+Create “Start Demo” pathway:
+Consumer Report → Upload Evidence → AI Analysis → High-Risk Signal → Business Notification → Corrective Action → Authority Prioritization → Evidence Review → Human Decision → Resolution.
+
+PRODUCT POSITIONING:
+FOODNEXUS AI is an end-to-end food-safety intelligence network, not merely an image classifier.
+Emphasize AI-assisted visual intelligence, evidence-based reporting, business action, authority prioritization, human verification, transparent audit trail and scalability.
+
+Use concise professional microcopy:
+“Potential risk detected”
+“Evidence requires human verification”
+“Repeated risk signal”
+“Corrective action overdue”
+“Priority investigation recommended”
+“AI-assisted observation”
+
+Never claim 100% accuracy, proven contamination or autonomous enforcement.
+
+FINAL:
+Build all 17 screens as polished connected prototype pages. Use realistic charts, maps, evidence imagery, AI overlays, dashboards, role-based navigation and responsive layouts. Prioritize clarity, credibility, innovation and judge-friendly storytelling. The final product must look like a real scalable GovTech + AI startup, not a student template.
