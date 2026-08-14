@@ -160,7 +160,7 @@ const authorityNav: NavItem[] = [
 
 function Sidebar({ role, current, navigate }: { role: Role; current: Screen; navigate: (s: Screen) => void }) {
   const nav = role === "consumer" ? consumerNav : role === "business" ? businessNav : authorityNav;
-  const identity = role === "consumer" ? "Priya Sharma" : role === "business" ? "GreenBite Foods" : "FSSAI Authority";
+  const identity = role === "consumer" ? "Vedika Phatak" : role === "business" ? "GreenBite Foods" : "FSSAI Authority";
   return (
     <aside className="w-60 min-h-screen flex flex-col flex-shrink-0" style={{ backgroundColor: C.navy }}>
       <div className="p-5 flex items-center gap-2.5 border-b" style={{ borderColor: "rgba(255,255,255,0.08)" }}>
@@ -215,7 +215,7 @@ function Sidebar({ role, current, navigate }: { role: Role; current: Screen; nav
 // ─── TopBar ───────────────────────────────────────────────────────────────────
 function TopBar({ role, setRole, navigate }: { role: Role; setRole: (r: Role) => void; navigate: (s: Screen) => void }) {
   const [notifs, setNotifs] = useState(false);
-  const initials = role === "consumer" ? "PS" : role === "business" ? "GB" : "FA";
+  const initials = role === "consumer" ? "VP" : role === "business" ? "GB" : "FA";
   return (
     <header className="h-14 bg-white border-b border-gray-100 flex items-center px-5 gap-4 sticky top-0 z-30 shadow-sm flex-shrink-0">
       <div className="flex items-center gap-2 bg-gray-50 border border-gray-100 rounded-lg px-3 py-1.5 w-56">
